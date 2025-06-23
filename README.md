@@ -57,5 +57,27 @@ The interactive app includes:
 - Generate an answer using the QA model
 
 ---
+## 🚀 Usage
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-repo/RAG_Bench_marking_Implementation_of_LLM-s.git
+cd RGB_Benchmarking
+```
 
+### 2️⃣ RUN the ipynb file
+
+Run all the cells in the ipynb file so that you can use gradio app to evaluate in the last cell.
+
+
+### 3️⃣ Run the Evaluation
+
+Initially please add your own API Keys of the LLM models in the config.ini file. Select the paramaters and model to evaluate the model will automatically fetch the data set required form the data config folder that is placed in the drive if the data config file dosen't exist in the drive please download and upload in the drive. Also select the input parameters in the gradio app.
+
+
+## 📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+For more details, refer to the original research paper: [RAGBench: Explainable Benchmark for Retrieval‑Augmented Generation Systems](https://arxiv.org/pdf/2407.11005)
 
